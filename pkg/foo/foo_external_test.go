@@ -1,11 +1,5 @@
 package foo_test
 
-import (
-	"testing"
+import "github.com/dt/externdemo/pkg/bar"
 
-	"github.com/dt/externdemo/pkg/foo"
-)
-
-func TestExternal(t *testing.T) {
-	foo.Bar()
-}
+func FooTest() { bar.Bar() }

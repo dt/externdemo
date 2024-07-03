@@ -14,4 +14,5 @@ go_test(
         "foo_test.go",
     ],
     embed = [":foo"],
+    deps = ["//pkg/bar"],
 )
